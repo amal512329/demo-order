@@ -89,7 +89,7 @@
       </div>
     </header>
     
-    <section class="page-container container mt-5 pt-5">
+    <section class="page-container">
       <h1 class="mb-5">order list</h1>
       <div class="vendr-sec1  wow fadeInUp animated">
         <input type="text" id="myInput"  placeholder="customer name">
@@ -103,145 +103,103 @@
         <div class="table-top ">
           <table id="emp-table">
             <thead>
-                <th col-index = 1>OrderID</th>
-                <th col-index = 2>Customer
+                <th col-index = 1>Start Date</th>
+                <th col-index = 2>Subscription ID
                     <select class="table-filter" onchange="filter_rows()">
                         <option value="all"></option>
                     </select>
                 </th>
     
-                <th col-index = 3>Product
+                <th >Billing</th>
+                
+                <th col-index = 4>Product Name 
                     <select class="table-filter" onchange="filter_rows()">
                         <option value="all"></option>
                     </select>
                 </th>
-                <th col-index = 4>Quantity
+                <th col-index = 5>Domain name 
                     <select class="table-filter" onchange="filter_rows()">
                         <option value="all"></option>
                     </select>
                 </th>
-                <th col-index = 5>Total
-                    <select class="table-filter" onchange="filter_rows()">
-                        <option value="all"></option>
-                    </select>
-                </th>
-                <th col-index = 6>Date
+                <th col-index = 6>Qty
                   <select class="table-filter" onchange="filter_rows()">
                       <option value="all"></option>
                   </select>
               </th>
-              <th col-index = 7>Status
+              <th col-index = 7>License Type
                 <select class="table-filter" onchange="filter_rows()">
                     <option value="all"></option>
                 </select>
               </th>
-              <th col-index = 7>Invoice
+              <th col-index = 8>Vendor Name
                 <select class="table-filter" onchange="filter_rows()">
                     <option value="all"></option>
                 </select>
               </th>
+             
+              <th >Current active Qty</th>
+              <th >ERP</th>
+              
+              <th col-index = 11>Customer
+                <select class="table-filter" onchange="filter_rows()">
+                    <option value="all"></option>
+                </select>
+              </th>
+              <th >Qut.No</th>
+              <th col-index = 13>Invoice.No
+                <select class="table-filter" onchange="filter_rows()">
+                    <option value="all"></option>
+                </select>
+              </th>
+              <th col-index = 14>Create Sales order
+                <select class="table-filter" onchange="filter_rows()">
+                    <option value="all"></option>
+                </select>
+              </th>
+
+
+
           </thead>
             <tbody>
                 <tr>
-                  <td>303</td>
-                  <td>Lucas</td>
-                  <td>Samsung</td>
-                  <td>4</td>
-                  <td>1,30000Rs</td>
-                  <td>22-03-2023</td>
-                  <td>Purchased</td>
-                  <td>113-JT</td>
-                </tr>
-                <tr>
-                  <td>304</td>
-                  <td>James</td>
-                  <td>Samsung</td>
-                  <td>6</td>
-                  <td>1,70000Rs</td>
-                  <td>15-08-2023</td>
-                  <td>Purchased</td>
-                  <td>109-JY</td>
-                </tr>
-                <tr>
-                  <td>305</td>
-                  <td>Arjun</td>
-                  <td>Iphone</td>
+                  <td>1/1/2023</td>
+                  <td>Nil</td>
+                  <td>Monthly Commitment & Monthly billing</td>
+                  <td>AE - Google</td>
+                  <td>a-AOEI</td>
+                  <td>10</td>
+                  <td>New</td>
+                  <td>Bps</td>
                   <td>3</td>
-                  <td>1,20000Rs</td>
-                  <td>11-02-2023</td>
-                  <td>Not Purchased</td>
-                  <td>102-OT</td>
+                  <td>Febno Uae</td>
+                  <td>Aarnav</td>
+                  <td>11</td>
+                  <td>113-JT</td>
+                  <td>Create</td>
+                  
                 </tr>
+
                 <tr>
-                  <td>306</td>
-                  <td>Stephen</td>
-                  <td>Samsung</td>
-                  <td>6</td>
-                  <td>3,45000Rs</td>
-                  <td>05-11-2023</td>
-                  <td>Purchased</td>
-                  <td>330-RY</td>
-                </tr>
-                <tr>
-                  <td>307</td>
-                  <td>James</td>
-                  <td>OnePlus</td>
-                  <td>5</td>
-                  <td>2,90000Rs</td>
-                  <td>26-07-2023</td>
-                  <td>Purchased</td>
-                  <td>YT-090</td>
-                </tr>
-                <tr>
-                  <td>308</td>
-                  <td>John</td>
-                  <td>Nokia</td>
+                  <td>1/1/2023</td>
+                  <td>111bJHKL</td>
+                  <td>YealryCommitment & Monthly billing</td>
+                  <td>IN - Google</td>
+                  <td>avis</td>
+                  <td>15</td>
+                  <td>Additional</td>
+                  <td>Crayon</td>
                   <td>2</td>
-                  <td>30,000Rs</td>
-                  <td>11-01-2023</td>
-                  <td>Purchased</td>
-                  <td>OT-009</td>
-                </tr>
-                <tr>
-                  <td>309</td>
-                  <td>Tressa</td>
-                  <td>Nokia</td>
-                  <td>4</td>
-                  <td>29,0000Rs</td>
-                  <td>11-09-2023</td>
-                  <td>Not Purchased</td>
-                  <td>00-YUT</td>
-                </tr>
-                <tr>
-                  <td>310</td>
-                  <td>John</td>
-                  <td>Samsung</td>
+                  <td>Febno IND</td>
+                  <td>Sawyer</td>
                   <td>2</td>
-                  <td>50000RS</td>
-                  <td>23-05-2023</td>
-                  <td>Purchased</td>
-                  <td>00-OT</td>
+                  <td>1120</td>
+                  <td>Cancelled</td>
+                  
                 </tr>
-                <tr>
-                  <td>311</td>
-                  <td>Lucas</td>
-                  <td>Redmi</td>
-                  <td>4</td>
-                  <td>1,00000Rs</td>
-                  <td>27-09-2023</td>
-                  <td>Purchased</td>
-                  <td>110-OPR</td>
-                </tr>
-                <tr>
-                    <td>312</td>
-                    <td>Marine</td>
-                    <td>Microsoft</td>
-                    <td>9</td>
-                    <td>4,08009Rs</td>
-                    <td>12-04-2023</td>
-                    <td>Purchased</td>
-                    <td>220-OUY</td>
-                </tr>
+                  
+                  
+                
                 
                 
     
